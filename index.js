@@ -1,5 +1,6 @@
 const WebSocket = require("ws");
 const wss = new WebSocket.Server({ port: 8080 });
+const chatSummaryCard = require('./chat-summary.json');
 
 wss.on("connection", (ws) => {
     console.log("A client has connected.");
@@ -14,11 +15,8 @@ wss.on("connection", (ws) => {
             utcTimestamp: new Date(),
             assistElements: [
                 {
-                    content: {
-                        summaryText: "wasdhinas jfajsfk",
-                        sentimentLevel: "Positive",
-                    },
-                    contentType: 'SentimentScore' //'RunningSummary' | 'SentimentScore' | 'AdaptiveCard';
+                    content: chatSummaryCard,
+                    contentType: 'AdaptiveCard' //'RunningSummary' | 'SentimentScore' | 'AdaptiveCard';
                 },
             ],
         },

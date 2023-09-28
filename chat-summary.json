@@ -1,0 +1,83 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "bolder",
+              "text": "Caroline Rich",
+              "wrap": true,
+              "size": "large",
+              "style": "heading"
+            }
+          ],
+          "width": "stretch"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD9SURBVHgBvVE7boNAFJy3EIRccYP4CD4C3ADvCZwuMQ3uYtKkTAdluhwBbhD5BjkCR6DKZxG7eY841haWS4+00vvMPo1mSD/sSxAlYNjos+maZsAR+f3jUim1mRvnhhCKai6ZQB2+4+SvPiKOB4zjLTM3fBDqtIBD9/rSw0PXPA8y5zfPlXCsQ8aDVBf72ifr4qkmYGUnlwkPvr58W618svR5WSa4LkTKpT7U26plf+/UuKjZS9G3/l9SoFpdVB/2JtopY95CEPLALHiD5RR9Zf4lN9k1BfRO40/LPqezz44/sDX9OWkcRU+gdJYB63YSt1h/LkFnzIGrg8T9C6EzX0wDg7DnAAAAAElFTkSuQmCC",
+              "spacing": "none",
+              "horizontalAlignment": "center",
+              "width": "11px",
+              "height": "11px",
+              "selectAction": {
+                "type": "Action.ToggleVisibility"
+              }
+            }
+          ],
+          "horizontalAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "urlString": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjcgMUM4Ljc5OTk5IDEgNi44OTk5OSAxLjYxMzY0IDUuMzk5OTkgMi44NDA5MUM0LjA5OTk5IDMuODYzNjQgMi45OTk5OSA1LjM5NzczIDIuNDk5OTkgNi45MzE4MkwyLjA5OTk5IDYuMjE1OTFDMS44OTk5OSA2LjAxMTM2IDEuNzk5OTkgNS45MDkwOSAxLjU5OTk5IDUuODA2ODJDMS40OTk5OSA1LjgwNjgyIDEuMzk5OTkgNS44MDY4MiAxLjM5OTk5IDUuODA2ODJDMS4yOTk5OSA1LjgwNjgyIDEuMDk5OTkgNS44MDY4MiAwLjk5OTk5MyA1LjkwOTA5QzAuNDk5OTkzIDYuMTEzNjQgMC4zOTk5OTMgNi42MjUgMC41OTk5OTIgNy4wMzQwOUwxLjk5OTk5IDkuNTkwOTFDMi4wOTk5OSA5Ljc5NTQ1IDIuMTk5OTkgOS44OTc3MyAyLjM5OTk5IDEwQzIuNTk5OTkgMTAuMTAyMyAyLjc5OTk5IDEwIDIuOTk5OTkgOS44OTc3M0w1LjQ5OTk5IDguNDY1OTFDNS43OTk5OSA4LjQ2NTkxIDUuODk5OTkgOC4yNjEzNiA1Ljk5OTk5IDguMDU2ODJDNS45OTk5OSA3Ljg1MjI3IDUuOTk5OTkgNy41NDU0NSA1Ljg5OTk5IDcuMzQwOTFDNS43OTk5OSA3LjEzNjM2IDUuNTk5OTkgNy4wMzQwOSA1LjM5OTk5IDYuOTMxODJDNS4xOTk5OSA2LjkzMTgyIDQuOTk5OTkgNi45MzE4MiA0Ljc5OTk5IDcuMDM0MDlMMy45OTk5OSA3LjQ0MzE4QzQuOTk5OTkgNC41Nzk1NSA3LjY5OTk5IDIuNzM4NjQgMTAuNyAyLjczODY0QzE0LjYgMi43Mzg2NCAxNy44IDYuMDExMzYgMTcuOCAxMEMxNy44IDEzLjk4ODYgMTQuNiAxNy4yNjE0IDEwLjcgMTcuMjYxNEM4Ljc5OTk5IDE3LjI2MTQgNi45OTk5OSAxNi41NDU1IDUuNjk5OTkgMTUuMTEzNkM1LjM5OTk5IDE0LjgwNjggNC44OTk5OSAxNC44MDY4IDQuNDk5OTkgMTUuMTEzNkM0LjE5OTk5IDE1LjQyMDUgNC4xOTk5OSAxNi4wMzQxIDQuNDk5OTkgMTYuMzQwOUM2LjE5OTk5IDE4LjA3OTUgOC4zOTk5OSAxOSAxMC43IDE5QzE1LjUgMTkgMTkuNSAxNS4wMTE0IDE5LjUgMTBDMTkuNSA0Ljk4ODY0IDE1LjYgMSAxMC43IDFaIiBmaWxsPSIjNTI2QjdBIi8+CjxwYXRoIGQ9Ik0xMC4yIDUuNzA0NTVDOS43OTk5OSA1LjcwNDU1IDkuMzk5OTkgNi4xMTM2NCA5LjM5OTk5IDYuNTIyNzNWMTEuMDIyN0M5LjM5OTk5IDExLjQzMTggOS43OTk5OSAxMS44NDA5IDEwLjIgMTEuODQwOUgxMy45QzE0LjMgMTEuODQwOSAxNC43IDExLjQzMTggMTQuNyAxMS4wMjI3QzE0LjcgMTAuNjEzNiAxNC4zIDEwLjIwNDUgMTMuOSAxMC4yMDQ1SDExVjYuNTIyNzNDMTEgNi4xMTM2NCAxMC42IDUuNzA0NTUgMTAuMiA1LjcwNDU1WiIgZmlsbD0iIzUyNkI3QSIvPgo8L3N2Zz4K",
+              "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjcgMUM4Ljc5OTk5IDEgNi44OTk5OSAxLjYxMzY0IDUuMzk5OTkgMi44NDA5MUM0LjA5OTk5IDMuODYzNjQgMi45OTk5OSA1LjM5NzczIDIuNDk5OTkgNi45MzE4MkwyLjA5OTk5IDYuMjE1OTFDMS44OTk5OSA2LjAxMTM2IDEuNzk5OTkgNS45MDkwOSAxLjU5OTk5IDUuODA2ODJDMS40OTk5OSA1LjgwNjgyIDEuMzk5OTkgNS44MDY4MiAxLjM5OTk5IDUuODA2ODJDMS4yOTk5OSA1LjgwNjgyIDEuMDk5OTkgNS44MDY4MiAwLjk5OTk5MyA1LjkwOTA5QzAuNDk5OTkzIDYuMTEzNjQgMC4zOTk5OTMgNi42MjUgMC41OTk5OTIgNy4wMzQwOUwxLjk5OTk5IDkuNTkwOTFDMi4wOTk5OSA5Ljc5NTQ1IDIuMTk5OTkgOS44OTc3MyAyLjM5OTk5IDEwQzIuNTk5OTkgMTAuMTAyMyAyLjc5OTk5IDEwIDIuOTk5OTkgOS44OTc3M0w1LjQ5OTk5IDguNDY1OTFDNS43OTk5OSA4LjQ2NTkxIDUuODk5OTkgOC4yNjEzNiA1Ljk5OTk5IDguMDU2ODJDNS45OTk5OSA3Ljg1MjI3IDUuOTk5OTkgNy41NDU0NSA1Ljg5OTk5IDcuMzQwOTFDNS43OTk5OSA3LjEzNjM2IDUuNTk5OTkgNy4wMzQwOSA1LjM5OTk5IDYuOTMxODJDNS4xOTk5OSA2LjkzMTgyIDQuOTk5OTkgNi45MzE4MiA0Ljc5OTk5IDcuMDM0MDlMMy45OTk5OSA3LjQ0MzE4QzQuOTk5OTkgNC41Nzk1NSA3LjY5OTk5IDIuNzM4NjQgMTAuNyAyLjczODY0QzE0LjYgMi43Mzg2NCAxNy44IDYuMDExMzYgMTcuOCAxMEMxNy44IDEzLjk4ODYgMTQuNiAxNy4yNjE0IDEwLjcgMTcuMjYxNEM4Ljc5OTk5IDE3LjI2MTQgNi45OTk5OSAxNi41NDU1IDUuNjk5OTkgMTUuMTEzNkM1LjM5OTk5IDE0LjgwNjggNC44OTk5OSAxNC44MDY4IDQuNDk5OTkgMTUuMTEzNkM0LjE5OTk5IDE1LjQyMDUgNC4xOTk5OSAxNi4wMzQxIDQuNDk5OTkgMTYuMzQwOUM2LjE5OTk5IDE4LjA3OTUgOC4zOTk5OSAxOSAxMC43IDE5QzE1LjUgMTkgMTkuNSAxNS4wMTE0IDE5LjUgMTBDMTkuNSA0Ljk4ODY0IDE1LjYgMSAxMC43IDFaIiBmaWxsPSIjNTI2QjdBIi8+CjxwYXRoIGQ9Ik0xMC4yIDUuNzA0NTVDOS43OTk5OSA1LjcwNDU1IDkuMzk5OTkgNi4xMTM2NCA5LjM5OTk5IDYuNTIyNzNWMTEuMDIyN0M5LjM5OTk5IDExLjQzMTggOS43OTk5OSAxMS44NDA5IDEwLjIgMTEuODQwOUgxMy45QzE0LjMgMTEuODQwOSAxNC43IDExLjQzMTggMTQuNyAxMS4wMjI3QzE0LjcgMTAuNjEzNiAxNC4zIDEwLjIwNDUgMTMuOSAxMC4yMDQ1SDExVjYuNTIyNzNDMTEgNi4xMTM2NCAxMC42IDUuNzA0NTUgMTAuMiA1LjcwNDU1WiIgZmlsbD0iIzUyNkI3QSIvPgo8L3N2Zz4K",
+              "spacing": "None"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "${formatDateTime('2023-08-04T00:00:00Z', 'MMMM d, yyyy')}",
+              "isSubtle": true,
+              "wrap": true,
+              "weight": "Bolder",
+              "fontType": "Default",
+              "style": "default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "The customer reported that their washer has a foul smell.",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.6",
+  "rtl": false
+}
